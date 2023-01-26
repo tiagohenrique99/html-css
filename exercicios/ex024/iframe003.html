@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 450px;
+            border: 2px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit eaque nesciunt amet voluptates dolores eligendi perferendis magni libero, vel culpa eos velit harum excepturi? Quisquam et dignissimos dolorem facere quos.</p>
+    
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus neque placeat veniam aliquam debitis eos cumque inventore in eius, tenetur laboriosam recusandae, velit earum consectetur autem temporibus dignissimos officiis? A. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam facere fugiat odit ratione tempora at maxime quidem exercitationem consectetur similique. Animi ut, nostrum voluptates harum velit sint est iste quod.</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus velit consequuntur voluptatibus ipsum repellendus in reprehenderit et fugit veniam reiciendis! Voluptatibus deserunt quis amet maiores ullam non distinctio vel voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae error at magnam molestias alias possimus temporibus odit et, optio maxime harum tempora dolore dolorum perferendis. Et quis voluptates minima beatae!</p> <img src='imagens/img01.png'>" id="tela" name="frame">
+        <p>infelizmente seu navegador não e compativel</p>
+    </iframe>
+    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus velit consequuntur voluptatibus ipsum repellendus in reprehenderit et fugit veniam reiciendis! Voluptatibus deserunt quis amet maiores ullam non distinctio vel voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae error at magnam molestias alias possimus temporibus odit et, optio maxime harum tempora dolore dolorum perferendis. Et quis voluptates minima beatae!</p>
+    
+</body>
+</html>
